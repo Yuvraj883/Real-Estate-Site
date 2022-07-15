@@ -73,7 +73,7 @@ input{
 .primary-txt{
     font-weight:bold;
     font-size:1.2em;
-    margin-top: 0.5em;
+    margin-top: 0;
 }
 .secondary-txt{
     font-size: .8em;

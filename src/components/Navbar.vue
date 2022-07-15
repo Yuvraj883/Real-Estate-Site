@@ -13,8 +13,8 @@
         <li>Resources</li>
     </ul>
     <div class="button-div">
-    <button class="login">LOG IN</button>
-    <button class="logout">LOG OUT</button>
+    <button class="login">Log In</button>
+    <button class="logout">Sign Up</button>
     </div>
     </nav>
 </template>
