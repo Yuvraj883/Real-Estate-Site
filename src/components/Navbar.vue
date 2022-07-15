@@ -1,5 +1,6 @@
 <template>
 <nav>
+<img class="brand-icon" src="../assets/brand-icon.jpeg" alt="brand-icon"/>
     <span>BrandName</span>
 
     <ul>
@@ -9,8 +10,10 @@
         <li>Manage Property</li>
         <li>Resources</li>
     </ul>
+    <div class="button-div">
     <button class="login">LOG IN</button>
     <button class="logout">LOG Out</button>
+    </div>
     </nav>
 </template>
 <script>
@@ -19,6 +22,10 @@ name:'Navbar'
 }
 </script>
 <style scoped>
+.brand-icon{
+    height:3.5em;
+
+}
 nav{
     background:white;
     color:black;
@@ -27,6 +34,8 @@ nav{
     width:100%;
     position:fixed;
     top: 0;
+    padding:1em 2.5em;
+    
 }
 ul{
     display:flex;
@@ -46,21 +55,24 @@ span{
 button{
     border:none;
     margin-top:.8em;
-    padding:.2em 1em;
+    padding:.5em 2em;
     margin-left:1em;
     box-shadow: 0 0 .1em black;
     font-weight:bold;
-  
+    border-radius: .1rem;
+    cursor:pointer;
+}
+.button-div{
+       right:9em;
+    position:absolute;
 }
 .login{
-      right: 0;
-    position:absolute;
+     
       color:#4F46E5;
     background:white;
 }
 .logout{
-      right: 0;
-    position:absolute;
+   
       color:white;
     background:#4F46E5;
 }
