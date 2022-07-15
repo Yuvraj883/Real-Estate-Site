@@ -1,7 +1,9 @@
 <template>
 <nav>
 <img class="brand-icon" src="../assets/brand-icon.jpeg" alt="brand-icon"/>
-    <span>BrandName</span>
+    <span>House</span>
+
+
 
     <ul>
         <li>Rent</li>
@@ -12,7 +14,7 @@
     </ul>
     <div class="button-div">
     <button class="login">LOG IN</button>
-    <button class="logout">LOG Out</button>
+    <button class="logout">LOG OUT</button>
     </div>
     </nav>
 </template>
@@ -22,6 +24,7 @@ name:'Navbar'
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 .brand-icon{
     height:3.5em;
 
@@ -35,6 +38,7 @@ nav{
     position:fixed;
     top: 0;
     padding:1em 2.5em;
+    box-shadow:0 0 2px black;
     
 }
 ul{
@@ -48,9 +52,10 @@ li{
 }
 span{
     display:inline;
-    margin-top:1rem;
-    font-size:larger;
+    margin-top:0rem;
+    font-size:2em;
     font-weight: 900;
+    font-family:'Splash',cursive;
 }
 button{
     border:none;

@@ -1,6 +1,7 @@
 
 <template>
 <navbar/>
+<search-section/>
 </template>
 
 <script >
@@ -8,14 +9,21 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 
 import Navbar from './components/Navbar.vue'
+import SearchSection from './components/SearchSection.vue'
 export default{
   name:'App',
   components:{
-    Navbar
+    Navbar,
+    SearchSection
   }
 }
 </script>
 
 <style scoped>
-
+body{
+  background:grey;
+}
+template{
+  background-color:#F8FAFC;
+}
 </style>
