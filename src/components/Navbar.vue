@@ -45,18 +45,22 @@ span{
 }
 button{
     border:none;
-    margin-top:-.8em;
+    margin-top:.8em;
     padding:.2em 1em;
     margin-left:1em;
     box-shadow: 0 0 .1em black;
     font-weight:bold;
+  
 }
 .login{
+      right: 0;
+    position:absolute;
       color:#4F46E5;
     background:white;
 }
 .logout{
-
+      right: 0;
+    position:absolute;
       color:white;
     background:#4F46E5;
 }
