@@ -45,16 +45,19 @@ span{
 }
 button{
     border:none;
-
+    margin-top:-.8em;
+    padding:.2em 1em;
     margin-left:1em;
     box-shadow: 0 0 .1em black;
+    font-weight:bold;
 }
 .login{
-    color:white;
-    background:#4F46E5;
+      color:#4F46E5;
+    background:white;
 }
 .logout{
-    color:#4F46E5;
-    background:white;
+
+      color:white;
+    background:#4F46E5;
 }
 </style>
