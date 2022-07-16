@@ -35,7 +35,7 @@ export default{
 <style scoped>
 .container{
     padding-top:7em;
-  background-color:#F8FAFC;
+  background-color:hsl(210, 40%, 98%);
     
     
 }
@@ -45,7 +45,7 @@ h1{
     margin-left: 8rem;
 }
 input{
-    position:fixed; 
+    position:absolute; 
     right:15em;
     border-radius:.2em;
     height:1.5rem;

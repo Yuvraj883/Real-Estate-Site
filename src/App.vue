@@ -2,6 +2,7 @@
 <template>
 <navbar/>
 <search-section/>
+<Cards/>
 </template>
 
 <script >
@@ -10,17 +11,19 @@
 
 import Navbar from './components/Navbar.vue'
 import SearchSection from './components/SearchSection.vue'
+import Cards from './components/Cards.vue'
 export default{
   name:'App',
   components:{
     Navbar,
-    SearchSection
+    SearchSection,
+    Cards
   }
 }
 </script>
 
 <style scoped>
-body{
+#app{
   background:grey;
 }
 template{

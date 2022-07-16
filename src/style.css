@@ -88,3 +88,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+body{
+  margin:0;
+  padding:0;
+  background-color:hsl(210, 40%, 98%);
+}
