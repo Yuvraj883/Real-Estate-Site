@@ -29,7 +29,7 @@
 </script>
 <style scoped>
 .card{
-    margin:1rem;
+    margin:1.2rem;
     height:auto; 
     width:30%;
     background:white;

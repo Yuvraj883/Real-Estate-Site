@@ -2,7 +2,19 @@
     <div class="container">
 
     <h1>Search properties to rent</h1>
-    <input placeholder="Search with search bar"/>
+    <input list="cities" placeholder="Search with search bar"/>
+    <datalist id="cities">
+   <option value="New York"></option>
+   <option value="Los Angeles"></option>
+   <option value="Georgia"></option>
+   <option value="Washington"></option>
+   <option value="Alaska"></option>
+   <option value="Sillicon Valley"></option>
+   <option value="Virginia"></option>
+
+   
+
+    </datalist>
     <div class="row">
     <div class="col border-right">
     <p class="secondary-txt">Location</p>
@@ -14,7 +26,7 @@
     </div>
      <div class="col border-right">
     <p class="secondary-txt">Price</p>
-    <p class="primary-txt">500$-700$</p>
+    <p class="primary-txt">$500-$700</p>
     </div>
      <div class="col border-right">
     <p class="secondary-txt">Property Type</p>

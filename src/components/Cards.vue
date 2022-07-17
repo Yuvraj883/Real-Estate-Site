@@ -21,8 +21,9 @@ export default {
 </script>
 <style scoped>
 .cards{
-  margin:0em 7em;
+  margin:auto;
   display:flex;
   flex-wrap:wrap;
+  width:80%;
 }
 </style>
