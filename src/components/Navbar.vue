@@ -49,6 +49,7 @@ ul{
 li{
     list-style-type:none;
     margin:1em;
+    cursor:pointer;
 }
 span{
     display:inline;
