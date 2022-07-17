@@ -11,8 +11,15 @@
    <option value="Alaska"></option>
    <option value="Sillicon Valley"></option>
    <option value="Virginia"></option>
-
-   
+   <option value="New Delhi"></option>
+   <option value="Dwarka"></option>
+   <option value="Janak Puri"></option>
+   <option value="Rohini"></option>
+   <option value="Dabdi"></option>
+   <option value="Sadar Bazar"></option>
+   <option value="Safdarganj"></option>
+   <option value="Nirman Vihar"></option>
+   <option value="Laxmi Nagar"></option>   
 
     </datalist>
     <div class="row">
