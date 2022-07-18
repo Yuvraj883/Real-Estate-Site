@@ -4,8 +4,8 @@
 <section>
 <span class="price"><b>$2000</b>/month</span>
 
-<p class="title">Yuvi's House</p>
-<p class="address">D-71 Sita Puri, New Delhi-110045</p>
+<p class="title">God Yuvi </p>
+<p class="address">Raj Nagar, Palam, New Delhi</p>
 <div class="container">
 <div>
 <img src="../assets/bedIcon.png" alt="bed-icon"/>
