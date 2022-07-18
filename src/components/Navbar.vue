@@ -1,17 +1,17 @@
 <template>
 <nav>
-<img class="brand-icon" src="../assets/brand-icon.jpeg" alt="brand-icon"/>
-    <span>House</span>
+<div class="logo"><img class="brand-icon" src="../assets/brand-icon.png" alt="brand-icon"/>
+    <span>RealEstate</span></div>
 
 
 
-    <ul>
+    <div><ul>
         <li>Rent</li>
         <li>Buy</li>
         <li>Sell</li>
         <li>Manage Property</li>
         <li>Resources</li>
-    </ul>
+    </ul></div>
     <div class="button-div">
     <button class="login">Log In</button>
     <button class="logout">Sign Up</button>
@@ -26,60 +26,83 @@ name:'Navbar'
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 .brand-icon{
-    height:3.5em;
-
+    width: 5.5em;
+    height:5.5em;
 }
 nav{
     background:white;
     color:black;
-    display:flex;
-    position:fixed;
     width:100%;
-    position:fixed;
-    top: 0;
-    padding:1em 2.5em;
-    box-shadow:0 0 2px black;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 ul{
     display:flex;
-    margin-top:0;
-    
+    justify-content: center;
+    align-items: center;
+       margin:.5em;
 }
 li{
     list-style-type:none;
-    margin:1em;
+    padding: .5em;
+    margin: .3em;
     cursor:pointer;
+    font-weight: 500;
+     transition: all 300ms ease;
+     color: rgb(82, 82, 82);
+ 
+}
+li:hover{
+     padding: .5em;
+    margin: .3em;
+
+    color: #3b4193;
 }
 span{
-    display:inline;
-    margin-top:0rem;
-    font-size:2em;
+    font-size:1.9em;
     font-weight: 900;
-    font-family:'Splash',cursive;
+       color: #3b4193;
 }
+
 button{
+      font-family: 'Poppins', sans-serif;
     border:none;
-    margin-top:.8em;
-    padding:.5em 2em;
+    padding:.7em 2em;
     margin-left:1em;
     box-shadow: 0 0 .1em black;
     font-weight:bold;
     border-radius: .1rem;
     cursor:pointer;
+    border-radius: .5em;
+    outline: none;
+
 }
 .button-div{
-       right:9em;
-    position:absolute;
+  /*  */
 }
 .login{
-     
-      color:#4F46E5;
+     transition: all 300ms ease;
+      color: #3b4193;
     background:white;
+    /* border: 1px solid #4F46E5; */
+}
+.login:hover{
+       color:white;
+    background: linear-gradient(to right, #4F46E5, #467ee5);
 }
 .logout{
-   
+    /* border: 1px solid #4F46E5; */
       color:white;
-    background:#4F46E5;
+    background: linear-gradient(to right, #4F46E5, #467ee5);
+      transition: all 300ms ease;
 }
+
 </style>

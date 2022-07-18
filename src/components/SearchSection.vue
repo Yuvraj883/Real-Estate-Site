@@ -2,7 +2,7 @@
     <div class="container">
 
     <h1>Search properties to rent</h1>
-    <input list="cities" placeholder="Search with search bar"/>
+    <input list="cities" placeholder="Search with search bar" id="search-select"/>
     <datalist id="cities">
    <option value="New York"></option>
    <option value="Los Angeles"></option>
@@ -106,6 +106,16 @@ input{
     padding:.5em 2em;
     margin-top:.7em;
     border-radius: .1em;
+    /* border: none; */
     
+}
+#search-select{
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    background-color: rgb(234, 234, 234);
+    padding: .5em;
+    border-radius: .5em;
+    margin: auto;
 }
 </style>
